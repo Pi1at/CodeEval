@@ -55,6 +55,8 @@
     <Content Include="Easy\205.txt" />
     <None Include="Easy\208-FindTheHighestScore.fsx" />
     <Content Include="Easy\208.txt" />
+    <None Include="Easy\214-TimeToEat.fsx" />
+    <Content Include="Easy\214.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
