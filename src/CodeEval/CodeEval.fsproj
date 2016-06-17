@@ -58,6 +58,8 @@
     <None Include="Easy\214-TimeToEat.fsx" />
     <Content Include="Easy\214.txt" />
     <None Include="Easy\23-MultiplicationTables.fsx" />
+    <None Include="Moderate\89-PassTriangle.fsx" />
+    <Content Include="Moderate\89.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
