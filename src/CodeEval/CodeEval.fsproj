@@ -57,6 +57,7 @@
     <Content Include="Easy\208.txt" />
     <None Include="Easy\214-TimeToEat.fsx" />
     <Content Include="Easy\214.txt" />
+    <None Include="Easy\23-MultiplicationTables.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
