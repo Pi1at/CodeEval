@@ -6,12 +6,10 @@ open System.IO
 
 let parse (s : string) = s.Split([| ' ' |], StringSplitOptions.RemoveEmptyEntries) |> Array.map int
 
-let maxSum triangle = 
-    triangle
-    |> Array.rev
-    |> Array.tail
-    |> Array.fold (fun state row -> row |> Array.mapi (fun idx v -> v + max (state.[idx]) (state.[idx + 1]))) 
-           (triangle |> Array.last)
+let maxSum (triangle : int [] []) = 
+    Array.zeroCreate (triangle.Length + 1)
+    |> Array.foldBack (fun row state -> row |> Array.mapi (fun idx v -> v + max (state.[idx]) (state.[idx + 1]))) 
+           triangle
     |> Array.head
 
 let solve filename = 
